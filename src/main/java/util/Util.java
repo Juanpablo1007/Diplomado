@@ -8,22 +8,40 @@ public class Util {
     private static final String CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     private static final SecureRandom random = new SecureRandom();
 
+    /**
+     * Genera una cadena aleatoria de la longitud especificada.
+     *
+     * @param length La longitud de la cadena aleatoria a generar.
+     * @return Una cadena aleatoria de la longitud especificada.
+     */
     public static String generateRandomString(int length) {
         StringBuilder sb = new StringBuilder(length);
         for (int i = 0; i < length; i++) {
+            // Selecciona un carácter aleatorio de la cadena CHARACTERS y lo añade a StringBuilder.
             sb.append(CHARACTERS.charAt(random.nextInt(CHARACTERS.length())));
         }
         return sb.toString();
     }
 
+
+    /**
+     * Divide un array de bytes en fragmentos de un tamaño especificado.
+     *
+     * @param input El array de bytes a dividir.
+     * @param chunkSize El tamaño de cada fragmento.
+     * @return Un array de arrays de bytes, donde cada subarray es un fragmento del tamaño especificado.
+     */
     public static byte[][] split(byte[] input, int chunkSize) {
+        // Calcula el número de fragmentos necesarios.
         int numberOfChunks = (int) Math.ceil((double) input.length / chunkSize);
         byte[][] output = new byte[numberOfChunks][];
 
         for (int i = 0; i < numberOfChunks; i++) {
+            // Determina el índice de inicio y la longitud del fragmento actual.
             int start = i * chunkSize;
             int length = Math.min(input.length - start, chunkSize);
 
+            // Crea un nuevo array de bytes para el fragmento y copia los datos correspondientes.
             byte[] temp = new byte[length];
             System.arraycopy(input, start, temp, 0, length);
             output[i] = temp;
@@ -32,21 +50,32 @@ public class Util {
         return output;
     }
 
+
+    /**
+     * Une fragmentos de bytes en un solo array de bytes.
+     *
+     * @param input Un array de arrays de bytes, donde cada subarray es un fragmento.
+     * @return Un array de bytes que es la unión de todos los fragmentos.
+     */
     public static byte[] join(byte[][] input) {
+        // Calcula la longitud total del array de salida.
         int totalLength = 0;
         for (byte[] array : input) {
             totalLength += array.length;
         }
 
+        // Crea un nuevo array de bytes con la longitud total.
         byte[] output = new byte[totalLength];
         int currentPosition = 0;
         for (byte[] array : input) {
+            // Copia cada fragmento en la posición correcta en el array de salida.
             System.arraycopy(array, 0, output, currentPosition, array.length);
             currentPosition += array.length;
         }
 
         return output;
     }
+
 
     public static String byteArrayToHexString(byte[] bytes, String separator) {
         String result = "";
