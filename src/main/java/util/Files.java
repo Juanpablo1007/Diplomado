@@ -53,7 +53,7 @@ public class Files {
         long size = Long.parseLong(sizeString.split(":")[1]);
         System.out.println("Size: " + size);
 
-        byte[] blockToReceive = new byte[1024];
+        byte[] blockToReceive = size > 1024 ? new byte[1024] : new byte[(int) size];
         int in;
         long remainder = size;
         while ((in = fromNetwork.read(blockToReceive)) != -1) {
@@ -86,9 +86,9 @@ public class Files {
 
         BufferedOutputStream toNetwork = new BufferedOutputStream(socket.getOutputStream());
 
-        pause(500);
+        pause(1000);
 
-        byte[] blockToSend = new byte[1024];
+        byte[] blockToSend = size > 1024 ? new byte[1024] : new byte[(int) size];
         int in;
         while ((in = fromFile.read(blockToSend)) != -1) {
             toNetwork.write(blockToSend, 0, in);

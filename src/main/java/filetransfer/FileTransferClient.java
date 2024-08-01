@@ -67,7 +67,7 @@ public class FileTransferClient {
         Files.sendObject(secretKey.getEncoded(), socket);
 
         String hashFilename = encryptedFilename + ".hash";
-        Hasher.generateIntegrityCheckerFile(encryptedFilename, hashFilename);
+        Hasher.generateIntegrityCheckerFile(filename, hashFilename);
         Files.sendFile(hashFilename, socket);
     }
 
