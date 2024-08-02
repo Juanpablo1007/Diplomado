@@ -35,7 +35,7 @@ public class FileTransferServer {
         receiveEncryptedFile(socket);
 
         System.out.println("Server: Sending encrypted file to client...");
-        String filename = "RPI-01.jpeg";
+        String filename = "server/pollo.png";
         sendEncryptedFile(filename, socket);
     }
 
@@ -52,7 +52,7 @@ public class FileTransferServer {
         Files.sendObject(secretKey.getEncoded(), socket);
 
         String hashFilename = encryptedFilename + ".hash";
-        Hasher.generateIntegrityCheckerFile(encryptedFilename, hashFilename);
+        Hasher.generateIntegrityCheckerFile(filename, hashFilename);
         Files.sendFile(hashFilename, socket);
     }
 
