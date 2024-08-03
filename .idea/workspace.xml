@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751eb19e-907e-47b3-a3a0-f032bc5e78f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/signature/archivos/61PVG-Y1Y8L._AC_SL1200_-removebg-preview (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/signature/archivos/Actualización SSL_TLS.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/signature/archivos/DIPLOMADOSI1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/signature/archivos/Historia de Instagram Promoción Día de las Madres Moderno Rosa y Rojo.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/signature/archivos/JuanPabloDelgado_Controles.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/signature/archivos/Poster Diplomado GRID.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/signature/archivos/Proyecto Final - Formulación de proyectos.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Util.java" afterDir="false" />
-    </list>
+    <list default="true" id="751eb19e-907e-47b3-a3a0-f032bc5e78f6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721486710968</updated>
       <workItem from="1722455939351" duration="1415000" />
-      <workItem from="1722686829871" duration="15662000" />
+      <workItem from="1722686829871" duration="16401000" />
     </task>
     <servers />
   </component>
