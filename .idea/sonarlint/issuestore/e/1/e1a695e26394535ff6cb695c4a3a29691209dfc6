@@ -1,0 +1,28 @@
+
+j
+java:S2189V""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ŞŠù­‘2J$ed286108-dafd-4d5a-bb60-47a24320d582
+”
+java:S1845"LRename field "port" to prevent any misunderstanding/clash with field "PORT".(ß³†ÿÿÿÿÿ8áŠù­‘2J$5eaa0e4e-4074-49fd-b2d6-565bde421cd6
+š
+java:S1450"WRemove the "listener" field and declare it as a local variable in the relevant methods.(Ó ƒ8áŠù­‘2J$5aaafbc7-7e24-4a92-ad45-47ae9d029546
+¢
+java:S1450"_Remove the "serverSideSocket" field and declare it as a local variable in the relevant methods.(•ê¡é8ÙÇù­‘2J$7fe1bc3e-aba3-4ad6-a2f3-e3fddb9cb5f2
+r	java:S106"+Replace this use of System.out by a logger.(øø„Ûşÿÿÿÿ8æŠù­‘2J$895715d1-be2c-4223-8564-09a02684d619
+m	java:S106"+Replace this use of System.out by a logger.(Ú€á€8æŠù­‘2J$74299a38-7373-4e9c-8c53-6a267eebd841
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ÁÄæ…ıÿÿÿÿ8èŠù­‘2J$2d7e3767-786a-4ce6-937c-d459ce05df40
+r	java:S106$"+Replace this use of System.out by a logger.(øø„Ûşÿÿÿÿ8éŠù­‘2J$1ecfa063-4c6c-4bcf-b316-2702866839eb
+m	java:S106%"+Replace this use of System.out by a logger.(Ú€á€8éŠù­‘2J$32715b85-04f5-4fb7-9fa0-9ba3f81d2793
+ƒ	java:S125&"<This block of commented-out lines of code should be removed.(ÁÄæ…ıÿÿÿÿ8éŠù­‘2J$1416a469-571c-49db-8bc9-9afa02965d5d
+m	java:S1062"+Replace this use of System.out by a logger.(æùœÇ8îŠù­‘2J$3d86e269-14b7-409b-9bbc-ce143c145e73
+m	java:S106O"+Replace this use of System.out by a logger.(¨à«Š8ûŠù­‘2J$554f9482-fda7-4756-a0ac-9f9523a09499
+¡
+java:S2142`"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8úÇù­‘2J$68c4008b-e971-461c-a337-233f3a9c868c
+{
+java:S1117["8Rename "port" which hides the field declared at line 25.(´Š—ñ8úÇù­‘2J$9fee574b-5e63-44ab-b518-d5770badb387
+r	java:S106\"+Replace this use of System.out by a logger.(‡õ‘ûşÿÿÿÿ8ûÇù­‘2J$41f52171-4333-41c7-ae96-40582b9109b2
+r	java:S106]"+Replace this use of System.out by a logger.(„±ñıÿÿÿÿ8ûÇù­‘2J$011a3adb-3563-4bae-b796-b4ce643a12b1
+m	java:S106a"+Replace this use of System.out by a logger.(…Ÿ“8Ê®ú­‘2J$3ca73154-0a05-44bd-a956-4822e9ba21c5
+r
+java:S1197f"*Move the array designators [] to the type.(ùï¾ÿÿÿÿÿ8üÇù­‘2J$47a8b610-57c5-483c-9508-b3adde91ef55
+
+java:S1128"JRemove this unused import 'sistema_mensajeria.model.MetodoEnum.REGISTRAR'.(£Îˆ„8şŸî®‘2J$83232fa9-dfca-4660-9428-70012a0e5ccb

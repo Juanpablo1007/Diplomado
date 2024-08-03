@@ -1,0 +1,18 @@
+
+†	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¬´©…ùÿÿÿÿJ$7eb18cce-1216-4b02-b681-12e51b770748
+†	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÓÖğ®úÿÿÿÿJ$71e08909-e8d3-4d6c-a93d-d1ba96c7b7db
+
+java:S2095
+"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(«ÒÛùÿÿÿÿJ$4c90bff4-8525-40db-969f-0bbd7c784992
+
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ˆ’ÄåıÿÿÿÿJ$2346d8ea-952a-4252-b334-9fd305d94e9b
+
+java:S2095$"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(–»ÆãşÿÿÿÿJ$ee950ab7-5401-4ced-8d4c-de8265d4caba
+
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(«ÒÛùÿÿÿÿJ$f9183873-5e77-4654-9eab-4f9d497c78a0
+{
+java:S1118":Add a private constructor to hide the implicit public one.(ó¾¸–ûÿÿÿÿJ$be217a99-b505-4a27-8531-1a2369c22c8f
+‹
+java:S2674&"JCheck the return value of the "read" call to see how many bytes were read.(¿Öµ©øÿÿÿÿJ$9da51887-a24a-4597-a60a-209ee6a8cb4d
+f	java:S106*"+Replace this use of System.out by a logger.(âûø¥J$7e8dcabf-4be5-4a20-8e51-4d5c9865a653
+k	java:S106,"+Replace this use of System.out by a logger.(ÄÂ‘ùÿÿÿÿJ$fffb7f75-1f3f-40be-9919-1122484a452b

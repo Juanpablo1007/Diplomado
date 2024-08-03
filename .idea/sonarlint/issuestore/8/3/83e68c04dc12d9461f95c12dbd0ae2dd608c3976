@@ -1,0 +1,20 @@
+
+¦
+java:S1488%"^Immediately return this expression instead of assigning it to the temporary variable "object".(Ìî»”ùÿÿÿÿ8Ä¬×Ø2J$5bc3e28f-250c-4da9-b1f2-1942876af39b
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Æ«¨£øÿÿÿÿ8Å¬×Ø2J$390c2e9b-3ecf-4441-83cf-946ebe3fc2cd
+	java:S112f"FDefine and throw a dedicated exception instead of using a generic one.(ìÀ¨‰ÿÿÿÿÿ8Å¬×Ø2J$db5c91f9-c1a1-4f6f-ae2c-28deed1c940b
+™
+java:S2095M"QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(ÿóË•ÿÿÿÿÿ8Å¬×Ø2J$0da61103-160d-4803-b486-7e3b90a2db08
+•
+java:S20950"RUse try-with-resources or close this "BufferedOutputStream" in a "finally" clause.(ÀíÂ8Å¬×Ø2J$dec00815-89d3-42a6-85f1-c40147304adb
+}
+java:S1118":Add a private constructor to hide the implicit public one.(Û¿’§8È¬×Ø2J$bb34bd2a-0dfd-4f31-ba7e-c1f4bf3a3f27
+
+java:S2674"JCheck the return value of the "read" call to see how many bytes were read.(…Ò•8Ğ¬×Ø2J$675812c1-b677-4c37-aa0b-dd17b1e653aa
+
+java:S2674""JCheck the return value of the "read" call to see how many bytes were read.(Ôè¾Ã8Ñ¬×Ø2J$46b7a904-c0f8-41a7-a5df-d79ea3f3fdbd
+r	java:S1062"+Replace this use of System.out by a logger.(È§¢¨øÿÿÿÿ8Õ¬×Ø2J$cd8198aa-4342-4aa6-97e8-0a12b6fc49aa
+m	java:S1066"+Replace this use of System.out by a logger.( Ë¹Ì8Õ¬×Ø2J$f728332b-eeea-4225-9b1a-bd83ef75a587
+l	java:S106E"+Replace this use of System.out by a logger.(çÓ¹8Ö¬×Ø2J$5fa0c393-5ebb-4b84-8b42-2383d47a7e47
+r	java:S106K"+Replace this use of System.out by a logger.(»æÊªşÿÿÿÿ8Ø¬×Ø2J$363eb8ae-04be-4b45-bc10-17b8e58482a6
+m	java:S106P"+Replace this use of System.out by a logger.( Ë¹Ì8Ú¬×Ø2J$b2da057a-0342-43bc-a973-eacd5c14cc61

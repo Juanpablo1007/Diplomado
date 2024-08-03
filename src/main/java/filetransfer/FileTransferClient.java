@@ -40,7 +40,7 @@ public class FileTransferClient {
 
     public void protocol(Socket socket) throws Exception {
         System.out.println("Client: Sending encrypted file to server...");
-        String filename = "img.png";
+        String filename = "11MB.png";
         sendEncryptedFile(filename, socket);
 
         System.out.println("Client: Receiving encrypted file from server...");

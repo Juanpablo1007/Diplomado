@@ -1,0 +1,24 @@
+
+	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(îôÚÂJ$428f68e5-8643-4812-9f7b-6c01933cb99f
+†	java:S112s"FDefine and throw a dedicated exception instead of using a generic one.(¢™£úÿÿÿÿJ$473edd83-a08d-4d32-9e2e-0a6f756c7bfb
+‹
+java:S1845"PRename field "server" to prevent any misunderstanding/clash with field "SERVER".(† ‹)J$814bd9f7-3f37-443e-9b9b-e5ce9620311e
+
+java:S1845"LRename field "port" to prevent any misunderstanding/clash with field "PORT".(ß³†ÿÿÿÿÿJ$ba835030-abd6-4947-83b7-9600f9b96ae2
+ 
+java:S1450"_Remove the "clientSideSocket" field and declare it as a local variable in the relevant methods.(ö§ÿØúÿÿÿÿJ$8639371d-79f3-4119-ab93-af3095c149c0
+k	java:S106"+Replace this use of System.out by a logger.(øø„ÛşÿÿÿÿJ$9bc1a910-eb8d-4dfc-b2cf-d3e0ba1f3d08
+k	java:S106"+Replace this use of System.out by a logger.(ôŠÙ—øÿÿÿÿJ$cf1a9606-957e-4b1c-8dbd-4c79abe84003
+k	java:S106"+Replace this use of System.out by a logger.(øø„ÛşÿÿÿÿJ$da3a36e7-f006-40b7-9883-48b73f992a2d
+k	java:S106 "+Replace this use of System.out by a logger.(ôŠÙ—øÿÿÿÿJ$047d645a-faad-4c4c-8fc0-d398cf04a39f
+k	java:S106*"+Replace this use of System.out by a logger.(ÆˆÇŸøÿÿÿÿJ$ea4e06ad-c3cc-4a4a-b312-a021a0edde2a
+k	java:S106."+Replace this use of System.out by a logger.(“ÕàîÿÿÿÿÿJ$d662fdef-4ecf-42da-8bd8-d812a9165efa
+f	java:S106V"+Replace this use of System.out by a logger.(Åê²ãJ$1e53eabd-7324-4003-997e-5f1f4e742386
+Z
+java:S5542Z"Use a secure cipher mode.(£°ÂşÿÿÿÿJ$0290a2d6-8759-4b24-9526-431732371b8d
+_
+java:S5547Z"Use a strong cipher algorithm.(£°ÂşÿÿÿÿJ$148821d1-cc50-474b-bcb5-a9a1b2552ad4
+Z
+java:S5542t"Use a secure cipher mode.(£°ÂşÿÿÿÿJ$f0944602-efdd-4ed4-af3c-2e40e2d273dd
+_
+java:S5547t"Use a strong cipher algorithm.(£°ÂşÿÿÿÿJ$480ab8a3-ee42-4d77-8725-62668a634d05

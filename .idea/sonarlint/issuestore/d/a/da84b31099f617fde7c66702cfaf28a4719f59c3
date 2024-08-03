@@ -1,0 +1,49 @@
+
+k
+java:S2189Õ""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8¶Ş‹°‘2J$2392f1e3-0711-4185-82cf-df60c3d77f5a
+	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(Ğ¿¹ºıÿÿÿÿ8¸Ş‹°‘2J$ad29daf8-02e5-4224-a767-3e8e343b4f4e
+ˆ	java:S112b"FDefine and throw a dedicated exception instead of using a generic one.(¯§ôÆ8¸Ş‹°‘2J$1d8a9f40-bd9f-4da9-97ef-45ce81651064
+	java:S112‚"FDefine and throw a dedicated exception instead of using a generic one.(Û¼üµùÿÿÿÿ8¸Ş‹°‘2J$73d9eda2-ebcc-4a66-9a4a-0b2cf53cb1b9
+š
+java:S1192T"WDefine a constant instead of duplicating this literal "[Client] From server: " 6 times.(ü¥…°8²ù“°‘2J$4ac6b8dc-d316-4a12-8c7a-86c453196a12
+Œ
+java:S1192M"IDefine a constant instead of duplicating this literal ".private" 3 times.(ğßÄİ8²ù“°‘2J$f2c31f20-d550-4240-911b-063caa3c2a2c
+’
+java:S1845"PRename field "server" to prevent any misunderstanding/clash with field "SERVER".(† ‹)8¾Ş‹°‘2J$65056339-ee87-4e69-a5c7-ec70b377711b
+”
+java:S1845"LRename field "port" to prevent any misunderstanding/clash with field "PORT".(ß³†ÿÿÿÿÿ8¾Ş‹°‘2J$fe5ac4bd-fe31-4850-afa7-ac5f848a6489
+§
+java:S1450"_Remove the "clientSideSocket" field and declare it as a local variable in the relevant methods.(ö§ÿØúÿÿÿÿ8ÁŞ‹°‘2J$84a57fe7-320d-488a-87f0-50e9fe8f4da1
+m	java:S106"+Replace this use of System.out by a logger.(Ã¡ıÊ8ÏŞ‹°‘2J$5b65163c-0bbd-422e-b7a0-3df0709c3ea0
+r	java:S106"+Replace this use of System.out by a logger.(£Ôåœøÿÿÿÿ8ÏŞ‹°‘2J$ce46ba83-5a76-4b9a-b1b7-07d6f5edfc63
+r	java:S106 "+Replace this use of System.out by a logger.(•ÿË¸şÿÿÿÿ8ĞŞ‹°‘2J$d5ae0562-7809-4c2d-8158-f7ccb26d676c
+l	java:S106&"+Replace this use of System.out by a logger.(âËåX8ÑŞ‹°‘2J$f50beb7e-7fde-42d2-bdb0-8cb6e41221bf
+r	java:S106'"+Replace this use of System.out by a logger.(•óÚ½ÿÿÿÿÿ8ÑŞ‹°‘2J$dbcfb0b8-32ee-4390-8d80-e762b2ddd7f4
+Œ
+java:S26749"JCheck the return value of the "read" call to see how many bytes were read.(Ç˜±z8İŞ‹°‘2J$bce8a11d-40ad-484f-a7e3-1b33d03f7aa0
+m	java:S106B"+Replace this use of System.out by a logger.(”¢—±8æŞ‹°‘2J$bca794fa-060b-4d76-a134-3ec22b567786
+m	java:S106T"+Replace this use of System.out by a logger.(ü¥…°8éŞ‹°‘2J$d5c2ee08-be67-404b-adad-8dbc9d8a21ff
+m	java:S106^"+Replace this use of System.out by a logger.(ü¥…°8éŞ‹°‘2J$68733ac0-1b10-4457-ba32-e1c3de537dee
+r	java:S106i"+Replace this use of System.out by a logger.(Åôª©şÿÿÿÿ8ëŞ‹°‘2J$709e0fab-1b7b-453e-b8e5-a31ec222d9f1
+l	java:S106l"+Replace this use of System.out by a logger.(¸ØïU8îŞ‹°‘2J$a348350d-4614-4e2b-88b4-21b58b5e06b8
+r	java:S106r"+Replace this use of System.out by a logger.(İè¬øÿÿÿÿ8ğŞ‹°‘2J$9cbcc856-c9dd-454d-a899-1da76c8c0ffc
+d
+java:S5542t"Use a secure padding scheme.(»¦µªúÿÿÿÿ8ìŞ‹°‘2J$cf9ea3b3-41e0-4087-aa3d-67ef114d2fb1
+r	java:S106"+Replace this use of System.out by a logger.(Åôª©şÿÿÿÿ8÷Ş‹°‘2J$29622561-1d8b-49c3-92a3-3ab16ca25562
+n	java:S106ˆ"+Replace this use of System.out by a logger.(ü¥…°8ùŞ‹°‘2J$121cc182-52d7-4c5d-bd61-450e14c63c03
+	java:S125"<This block of commented-out lines of code should be removed.(ÜçâŒ8ôŞ‹°‘2J$c5b05ac1-ca15-476c-8840-0c913d6fb86f
+s	java:S106–"+Replace this use of System.out by a logger.(¯§Ü¡ÿÿÿÿÿ8‚ß‹°‘2J$7eb5f903-4e65-4c46-bd63-36220e75078f
+e
+java:S5542˜"Use a secure padding scheme.(»¦µªúÿÿÿÿ8ùŞ‹°‘2J$1715a934-8c3f-4f9b-890a-e9e68851153a
+s	java:S106›"+Replace this use of System.out by a logger.(ˆ¨òÍşÿÿÿÿ8‚ß‹°‘2J$1f8d7d19-137f-46a6-9718-2030f1c1402c
+n	java:S106"+Replace this use of System.out by a logger.(·×îĞ8‚ß‹°‘2J$b613f8cc-4452-45c0-9cfd-8afd8fae2ca1
+s	java:S106ª"+Replace this use of System.out by a logger.(ã¼»Ìøÿÿÿÿ8‚ß‹°‘2J$d3a12b36-d304-41cb-895e-060baa0dc4a1
+m	java:S106«"+Replace this use of System.out by a logger.(‹¾ï8‚ß‹°‘2J$d5052627-fb3a-4dc3-a2a1-77f14cd77355
+n	java:S106¬"+Replace this use of System.out by a logger.(Ïå¼8ƒß‹°‘2J$20a5c489-a7e5-4238-911b-2d3123a7997e
+n	java:S106­"+Replace this use of System.out by a logger.(íÁº¡8‹ß‹°‘2J$f0678772-e501-458f-af0a-c86ef6dadd15
+s	java:S106®"+Replace this use of System.out by a logger.(Õ™ÅÉøÿÿÿÿ8Œß‹°‘2J$b48eb9d2-90e7-4037-8057-f6ee55fabb37
+s	java:S106±"+Replace this use of System.out by a logger.(£’Ÿšúÿÿÿÿ8Öù“°‘2J$375fd314-bc3c-43a9-a3f2-4901e5658594
+n	java:S106Ê"+Replace this use of System.out by a logger.(ü¥…°8×ù“°‘2J$b131033f-f9ed-4560-80b2-ef9994d4e0d6
+n	java:S106Ï"+Replace this use of System.out by a logger.(ş¹ê8§ù·°‘2J$2da60cca-4de1-435a-b503-e1feb38cdc49
+s
+java:S1197Û"*Move the array designators [] to the type.(ùï¾ÿÿÿÿÿ8ß‹°‘2J$c23dad1c-73ba-4b3d-b7d3-fba6045c7452

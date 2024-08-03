@@ -1,0 +1,9 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŸÉâ±J$2722df51-e7da-45a3-8f5c-d97f40d97c56
+r	java:S106-"+Replace this use of System.err by a logger.(•ÉÕÏüÿÿÿÿ8—Õ…Ã‘2J$07c6643e-de56-4d17-8fd6-282ae132b7aa
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8™Õ…Ã‘2J$8edaa5d9-0047-4742-9ec1-1ad33533ec24
+w
+java:S1068"4Remove this unused "directoryEncrypt" private field.(µüƒ×8ØÆ…Ã‘2J$66b82775-57f9-4a27-9339-aa9e90e559a8
+|
+java:S1068	"4Remove this unused "directoryDecrypt" private field.(´¿À¢ûÿÿÿÿ8œÕ…Ã‘2J$39849592-9086-49ab-85d7-ae14e20723e6

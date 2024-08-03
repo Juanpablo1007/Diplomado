@@ -1,0 +1,35 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•‰§ñ
+[	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(é³ ™
+`	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(½¾²…úÿÿÿÿ
+a	java:S112†"FDefine and throw a dedicated exception instead of using a generic one.(èßøÿÿÿÿ
+\	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(Òãñ
+p
+java:S1192I"UDefine a constant instead of duplicating this literal "DES/ECB/PKCS5Padding" 4 times.(¦¬¦‰ùÿÿÿÿ
+e
+java:S1845"PRename field "server" to prevent any misunderstanding/clash with field "SERVER".(† ‹)
+g
+java:S1845"LRename field "port" to prevent any misunderstanding/clash with field "PORT".(ß³†ÿÿÿÿÿ
+z
+java:S1450"_Remove the "clientSideSocket" field and declare it as a local variable in the relevant methods.(ö§ÿØúÿÿÿÿ
+E	java:S106$"+Replace this use of System.out by a logger.(øø„Ûşÿÿÿÿ
+E	java:S106%"+Replace this use of System.out by a logger.(˜±ôóøÿÿÿÿ
+E	java:S106+"+Replace this use of System.out by a logger.(øø„Ûşÿÿÿÿ
+E	java:S106,"+Replace this use of System.out by a logger.(˜±ôóøÿÿÿÿ
+E	java:S1065"+Replace this use of System.out by a logger.(­ñüòûÿÿÿÿ
+@	java:S106e"+Replace this use of System.out by a logger.(ÏòÎ
+@	java:S106i"+Replace this use of System.out by a logger.(Ğ«€“
+5
+java:S5542ˆ"Use a secure cipher mode.(£°Âşÿÿÿÿ
+:
+java:S5547ˆ"Use a strong cipher algorithm.(£°Âşÿÿÿÿ
+5
+java:S5542¢"Use a secure cipher mode.(£°Âşÿÿÿÿ
+:
+java:S5547¢"Use a strong cipher algorithm.(£°Âşÿÿÿÿ
+W
+java:S1128	"<Remove this unused import 'javax.crypto.spec.SecretKeySpec'.(¹«è•üÿÿÿÿ
+Y
+java:S1128">Remove this unused import 'java.security.InvalidKeyException'.(ì£ğ»ÿÿÿÿÿ
+^
+java:S1128"CRemove this unused import 'java.security.NoSuchAlgorithmException'.(ŒòÍ¾şÿÿÿÿ

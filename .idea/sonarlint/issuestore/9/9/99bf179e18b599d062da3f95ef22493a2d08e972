@@ -1,0 +1,22 @@
+
+c
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿJ$249c4fda-413f-4e5e-911f-850de042173c
+	java:S112J"FDefine and throw a dedicated exception instead of using a generic one.(ÜÛõ­J$44a056e7-280d-41c7-8053-077402cb9d46
+	java:S112d"FDefine and throw a dedicated exception instead of using a generic one.(£ÊÃ¦J$359a65b5-19ed-4b7e-9944-f8057a3c93a6
+“
+java:S1450"WRemove the "listener" field and declare it as a local variable in the relevant methods.(Ó ƒJ$aa0180d9-0404-4010-b002-25ffb58db07d
+›
+java:S1450"_Remove the "serverSideSocket" field and declare it as a local variable in the relevant methods.(•ê¡éJ$2dddc99a-561a-4a36-bb6a-2a06eb1c9d98
+k	java:S106"+Replace this use of System.out by a logger.(øø„ÛşÿÿÿÿJ$81782936-6373-4ec5-99a2-ba4cadf67b49
+e	java:S106"+Replace this use of System.out by a logger.(ÔŸƒJ$ffebb26a-4374-4f2b-8832-7c395319b4fd
+k	java:S106""+Replace this use of System.out by a logger.(öÎÇşÿÿÿÿJ$81da9d79-f57f-4252-910e-54f2075a3d67
+k	java:S106%"+Replace this use of System.out by a logger.(ñ¨ó¹ıÿÿÿÿJ$03941f53-99ba-4058-bba2-22676b813b8e
+f	java:S106G"+Replace this use of System.out by a logger.(“ÏÖJ$e8d2c91b-9e7b-4c93-8275-69072fe9a193
+Z
+java:S5542K"Use a secure cipher mode.(£°ÂşÿÿÿÿJ$f3034bd6-0965-4d55-b2df-fd1bd5ef20fb
+_
+java:S5547K"Use a strong cipher algorithm.(£°ÂşÿÿÿÿJ$665ddcfe-65c8-479a-963a-6224d23e6b5f
+Z
+java:S5542e"Use a secure cipher mode.(£°ÂşÿÿÿÿJ$e76af4af-59d9-4632-ba06-317e0ba6ad45
+_
+java:S5547e"Use a strong cipher algorithm.(£°ÂşÿÿÿÿJ$1294e648-c5eb-4b39-a133-864f60a26535

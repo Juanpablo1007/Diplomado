@@ -1,0 +1,13 @@
+
+f	java:S106"+Replace this use of System.out by a logger.(µİé¶J$98eb49c9-316b-4f7c-9b48-108edda72fb7
+k	java:S106"+Replace this use of System.out by a logger.(õáĞÿÿÿÿÿJ$b67c73cd-647e-4f6a-99af-fd2838185dac
+h
+java:S1128"&Remove this unused import 'util.Util'.(öîÈU8‹…‹«‘2J$b4bc37d0-dfed-48e3-be8e-484b5a14471c
+u
+java:S1128"2Remove this unused import 'java.security.KeyPair'.(üúì›8‹…‹«‘2J$90189414-2dc3-4197-a6e6-651f50eed194
+ƒ
+java:S1128";Remove this unused import 'java.security.KeyPairGenerator'.(åÚ¼–úÿÿÿÿ8–…‹«‘2J$7c41ab46-1a0b-4d40-a203-7f4c3e9deecf
+}
+java:S1128"5Remove this unused import 'java.security.PrivateKey'.(‘äÄîúÿÿÿÿ8—…‹«‘2J$16889817-dbb3-46d7-86ca-fb87457ad539
+|
+java:S1128"4Remove this unused import 'java.security.PublicKey'.(ºâú½üÿÿÿÿ8—…‹«‘2J$3d31dfe2-3ea0-48ca-a414-f0f4e6a6fece
