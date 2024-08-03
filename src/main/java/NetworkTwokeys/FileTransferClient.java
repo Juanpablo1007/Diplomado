@@ -1,8 +1,8 @@
 package NetworkTwokeys;
 
-import util.Files;
-import integrity.Hasher;
 import asymmetriccipher.RSAKeyManager;
+import integrity.Hasher;
+import util.Files;
 
 import javax.crypto.Cipher;
 import java.io.*;
@@ -17,6 +17,8 @@ import java.security.spec.X509EncodedKeySpec;
 import java.util.ArrayList;
 import java.util.Base64;
 import java.util.List;
+
+import static NetworkTwokeys.FileTransferServer.savePrivateKey;
 
 public class FileTransferClient {
     public static final int PORT = 4000;
@@ -56,7 +58,7 @@ public class FileTransferClient {
         KeyPair keyPair = RSAKeyManager.loadKeyPair();
         PublicKey clientPublicKey = keyPair.getPublic();
         PrivateKey clientPrivateKey = keyPair.getPrivate();
-
+        savePrivateKey(clientPrivateKey,"clientReceiver/clientPrivateKey.pem" );
         // Enviar la llave pública del cliente al servidor
         Files.sendObject(clientPublicKey.getEncoded(), socket);
         savePublicKey(clientPublicKey, "clientReceiver/clientPublicKey.pem");
@@ -68,6 +70,8 @@ public class FileTransferClient {
         System.out.println("Client: Receiving encrypted file from server...");
         receiveEncryptedFile(socket, clientPrivateKey);
     }
+
+
 
     public static void main(String[] args) throws Exception {
         FileTransferClient ftc;
@@ -134,7 +138,7 @@ public class FileTransferClient {
             dir.mkdirs();
         }
 
-        String decryptedFilename = outputDirectory + "/decryptedFile";
+        String decryptedFilename = outputDirectory + "/decryptedFile.png";
         try (BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream(decryptedFilename))) {
             for (byte[] encryptedSegment : encryptedSegments) {
                 byte[] decryptedSegment = cipher.doFinal(encryptedSegment);

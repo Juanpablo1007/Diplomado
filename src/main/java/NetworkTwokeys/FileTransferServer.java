@@ -1,8 +1,8 @@
 package NetworkTwokeys;
 
-import util.Files;
-import integrity.Hasher;
 import asymmetriccipher.RSAKeyManager;
+import integrity.Hasher;
+import util.Files;
 
 import javax.crypto.Cipher;
 import java.io.*;
@@ -14,6 +14,7 @@ import java.security.KeyFactory;
 import java.security.KeyPair;
 import java.security.PrivateKey;
 import java.security.PublicKey;
+import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 import java.util.ArrayList;
 import java.util.Base64;
@@ -46,6 +47,7 @@ public class FileTransferServer {
         // Enviar la llave pública al cliente
         Files.sendObject(serverPublicKey.getEncoded(), socket);
         savePublicKey(serverPublicKey, "serverReceiver/serverPublicKey.pem");
+        savePrivateKey(serverPrivateKey,"serverReceiver/serverPrivateKey.pem" );
 
         // Recibir la llave pública del cliente
         byte[] clientPublicKeyBytes = (byte[]) Files.receiveObject(socket);
@@ -119,7 +121,7 @@ public class FileTransferServer {
             dir.mkdirs();
         }
 
-        String decryptedFilename = outputDirectory + "/decryptedFile";
+        String decryptedFilename = outputDirectory + "/decryptedFile.png";
         try (BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream(decryptedFilename))) {
             for (byte[] encryptedSegment : encryptedSegments) {
                 byte[] decryptedSegment = cipher.doFinal(encryptedSegment);
@@ -139,6 +141,11 @@ public class FileTransferServer {
     public static void savePublicKey(PublicKey publicKey, String filepath) throws IOException {
         X509EncodedKeySpec x509EncodedKeySpec = new X509EncodedKeySpec(publicKey.getEncoded());
         String keyString = "-----BEGIN PUBLIC KEY-----\n" + Base64.getMimeEncoder().encodeToString(x509EncodedKeySpec.getEncoded()) + "\n-----END PUBLIC KEY-----";
+        java.nio.file.Files.write(Paths.get(filepath), keyString.getBytes(), StandardOpenOption.CREATE);
+    }
+    public static void savePrivateKey(PrivateKey privateKey, String filepath) throws IOException {
+        PKCS8EncodedKeySpec pkcs8EncodedKeySpec = new PKCS8EncodedKeySpec(privateKey.getEncoded());
+        String keyString = "-----BEGIN PRIVATE KEY-----\n" + Base64.getMimeEncoder().encodeToString(pkcs8EncodedKeySpec.getEncoded()) + "\n-----END PRIVATE KEY-----";
         java.nio.file.Files.write(Paths.get(filepath), keyString.getBytes(), StandardOpenOption.CREATE);
     }
 }

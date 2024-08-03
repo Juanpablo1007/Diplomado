@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="751eb19e-907e-47b3-a3a0-f032bc5e78f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/NetworkTwokeys/FileTransferClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NetworkTwokeys/FileTransferServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kcnedfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kcnedfo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privateKey" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/publicKey" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/secret.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientReceiver/clientPublicKey.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientReceiver/decryptedFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientReceiver/img.png.hash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientReceiver/pollo.png.hash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientReceiver/serverPublicKey.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverReceiver/clientPublicKey.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverReceiver/decryptedFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverReceiver/img.png.hash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverReceiver/pollo.png.hash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverReceiver/serverPublicKey.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NetworkTwokeys/FileTransferClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NetworkTwokeys/FileTransferClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NetworkTwokeys/FileTransferServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NetworkTwokeys/FileTransferServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/integrity/Hasher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/integrity/Hasher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +79,7 @@
       <recent name="publickeycipher" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileTransferServer">
+  <component name="RunManager" selected="Application.FileTransferClient">
     <configuration name="FileTransferClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NetworkTwokeys.FileTransferClient" />
       <module name="laboratorio-encriptado" />
@@ -165,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721486710968</updated>
       <workItem from="1722455939351" duration="1415000" />
-      <workItem from="1722686829871" duration="5836000" />
+      <workItem from="1722686829871" duration="12253000" />
     </task>
     <servers />
   </component>
