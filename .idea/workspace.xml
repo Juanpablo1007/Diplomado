@@ -5,21 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="751eb19e-907e-47b3-a3a0-f032bc5e78f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NetworkTwokeys/FileTransferClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NetworkTwokeys/FileTransferServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kcnedfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kcnedfo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privateKey" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/publicKey" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secret.key" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2jVyngRbL3wvPgQG9B5S2Fc4EyR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,7 +55,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jpdelgado/Desktop/Diplomado",
+    "last_opened_file_path": "C:/Users/JUAN PABLO/Desktop/diplomado/Diplomado/laboratorio encriptado - copia/src/main/java/NetworkTwokeys",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,11 +65,40 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JUAN PABLO\Desktop\diplomado\Diplomado\laboratorio encriptado - copia\src\main\java\NetworkTwokeys" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="publickeycipher" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PublicKeyCipherTester06">
+  <component name="RunManager" selected="Application.FileTransferServer">
+    <configuration name="FileTransferClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NetworkTwokeys.FileTransferClient" />
+      <module name="laboratorio-encriptado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NetworkTwokeys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileTransferServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NetworkTwokeys.FileTransferServer" />
+      <module name="laboratorio-encriptado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NetworkTwokeys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PublicKeyCipherTester06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="publickeycipher.PublicKeyCipherTester06" />
       <module name="laboratorio-encriptado" />
@@ -79,25 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PublicKeyCipherTester08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="publickeycipher.PublicKeyCipherTester08" />
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NetworkTwokeys.Test01" />
       <module name="laboratorio-encriptado" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="publickeycipher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PublicKeyCipherTester09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="publickeycipher.PublicKeyCipherTester09" />
-      <module name="laboratorio-encriptado" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="publickeycipher.*" />
+          <option name="PATTERN" value="NetworkTwokeys.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,10 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileTransferClient" />
+        <item itemvalue="Application.FileTransferServer" />
+        <item itemvalue="Application.Test01" />
         <item itemvalue="Application.PublicKeyCipherTester06" />
         <item itemvalue="Application.PublicKeyCipherTester07" />
-        <item itemvalue="Application.PublicKeyCipherTester08" />
-        <item itemvalue="Application.PublicKeyCipherTester09" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721486710968</updated>
       <workItem from="1722455939351" duration="1415000" />
+      <workItem from="1722686829871" duration="5836000" />
     </task>
     <servers />
   </component>
