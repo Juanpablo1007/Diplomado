@@ -91,6 +91,32 @@ public class Util {
         return result.toString();
     }
 
+    public static String byteArrayToHexString(byte[] bytes) {
+        String separator = ":";
+        StringBuilder result = new StringBuilder();
+        int cont = 0;
+        for (int i = 0; i < bytes.length; i++) {
+            result.append(String.format("%02x", bytes[i])).append(separator);
+            if (cont == 9) {
+                result.append("\n");
+                cont = -1;
+            }
+            cont++;
+        }
+        return result.toString();
+    }
+    public static String byteArrayToHexStringLine(byte[] bytes) {
+        String separator = ":";
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < bytes.length; i++) {
+            result.append(String.format("%02x", bytes[i])).append(separator);
+
+        }
+        return result.toString();
+    }
+
+
     public static void saveObject(Object o, String fileName) throws IOException {
         FileOutputStream fileOut;
         ObjectOutputStream out;
