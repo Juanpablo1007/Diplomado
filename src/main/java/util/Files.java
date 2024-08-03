@@ -66,7 +66,6 @@ public class Files {
 
         toFile.flush();
         toFile.close();
-        System.out.println("salio :)");
         System.out.println("File received: " + filename);
 
         return filename;
